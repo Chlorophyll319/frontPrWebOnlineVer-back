@@ -2,6 +2,28 @@
 
 基於 Node.js 和 Express.js 構建的 RESTful API 後端服務，為前端職訓資訊分享網站提供數據支持。
 
+## 🌐 部署資訊
+
+本專案使用 [Render Web Services](https://render.com/docs/web-services) 部署後端服務。
+
+### 關於 Render Web Services
+
+Render 是一個現代化的雲端平台,提供以下特點:
+
+- **自動化部署**: 連結 Git 分支後自動構建和部署應用程式
+- **零停機部署**: 支援無縫更新,不影響線上服務
+- **免費 SSL/TLS**: 自動提供安全憑證
+- **多語言支援**: 支援 Node.js、Python、Go、Ruby 等多種框架
+- **DDoS 防護**: 內建防護機制確保服務安全
+- **即時回滾**: 可快速回退到先前版本
+
+### 本專案部署配置
+
+- **部署平台**: Render Web Services
+- **控制面板**: [Dashboard](https://dashboard.render.com/web/srv-d2nqsore5dus739bs1vg)
+- **監聽埠號**: 使用環境變數 `PORT` (Render 預設為 10000)
+- **啟動指令**: `npm start`
+
 ## 🛠 技術棧
 
 - **框架**: Express.js
